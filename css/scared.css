@@ -1,0 +1,387 @@
+.headline {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.broken-hearth {
+    width: 367px;
+    /* background: url(../images/fabulous-divorce-4\ 1.png); */
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head-wrapper h1 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 108.5%;
+    color: #000000;
+}
+
+.head-wrapper p {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 108.5%;
+    padding-top: 23px;
+}
+
+.head-wrapper {
+    max-width: 432px;
+    margin-bottom: 20px;
+}
+
+.violance {
+    padding-bottom: 72px;
+}
+
+.violance p {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 108.5%;
+    color: #000000;
+}
+
+.question {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 108.5%;
+    color: #000000;
+    padding-bottom: 72px;
+}
+
+.question h3 {
+    padding-bottom: 50px;
+}
+
+.para1 {
+    margin-bottom: 30px;
+}
+
+.acceptance {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 108.5%;
+    color: #000000;
+    padding-bottom: 72px;
+}
+
+.acceptance p {
+    font-weight: 400;
+}
+
+.depression {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 108.5%;
+    color: #000000;
+    padding-bottom: 72px;
+}
+
+.depression-para {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 108.5%;
+    color: #000000;
+}
+
+.games {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 108.5%;
+    color: #000000;
+    padding-bottom: 72px;
+}
+
+.games h3 {
+    padding-bottom: 50px;
+}
+
+.para4 {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: white;
+}
+
+.foot {
+    padding-top: 41px;
+    padding-bottom: 12px;
+}
+
+.eighteen {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.number {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    color: #000000;
+}
+
+.trust {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 108.5%;
+    color: #000000;
+    padding-bottom: 72px;
+}
+
+.trust h3 {
+    padding-bottom: 50px;
+}
+
+.trust p {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 108.5%;
+    color: #000000;
+}
+
+.para6 {
+    max-width: 185px;
+}
+
+.para6 p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 92%;
+    color: #000000;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+}
+
+.logos div {
+    margin-right: 16px;
+}
+
+.head-wrapper {
+    text-align: center;
+    padding: 0 10%;
+}
+
+.white-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.head-wrapper {
+    padding-bottom: 100px;
+    padding-left: 4%;
+    padding-right: 0.4%;
+}
+
+@media(max-width:1446px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media(max-width: 1200px) {
+    .container {
+        max-width: 90%;
+    }
+    .head {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+        padding-bottom: 47px;
+        padding-top: 22px;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .headline {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width:900px) {}
+
+@media(max-width:700px) {
+    /* .container {
+        max-width: 85%;
+    } */
+    .white-block {
+        padding-left: 4.2%;
+        padding-right: 0.28%;
+    }
+    .head-wrapper {
+        max-width: 85.7%;
+    }
+}
+
+@media(max-width:600px) {
+    .search {
+        width: 100%;
+    }
+    .head-wrapper {
+        max-width: 75%;
+    }
+    .headline {
+        padding-bottom: 80px;
+    }
+    .search input {
+        width: calc(100% - 50px);
+    }
+    .broken-hearth {
+        width: 100%;
+    }
+}
+
+@media(max-width:440px) {
+    .container {
+        max-width: 90%;
+    }
+    /* .broken-hearth {
+        width: 200px;
+    } */
+    .white-block {
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+    .head-wrapper h1 {
+        font-size: 30px;
+    }
+    .violance p {
+        font-size: 25px;
+    }
+    .question {
+        font-size: 28px;
+    }
+    .depression {
+        font-size: 25px;
+    }
+    .depression-para {
+        font-size: 28px;
+    }
+    .acceptance {
+        font-size: 25px;
+    }
+    .acceptance p {
+        font-size: 28px;
+    }
+    .games {
+        font-size: 25px;
+    }
+    .games p {
+        font-size: 28px;
+    }
+    .trust {
+        font-size: 28px;
+    }
+    .trust p {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:400px) {
+    .head-wrapper {
+        max-width: 100%;
+        padding-left: 5%;
+    }
+    .head-wrapper h1 {
+        font-size: 26px;
+    }
+    .white-block {
+        padding-top: 20px;
+    }
+    .broken-hearth {
+        height: auto;
+    }
+    .broken-hearth img {
+        display: block;
+        width: 70%;
+        margin: auto;
+    }
+    .violance {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .violance p {
+        font-size: 22px;
+    }
+    .question {
+        font-size: 25px;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .question h3 {
+        font-size: 25px;
+    }
+    .depression {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .para1 {
+        font-size: 22px;
+    }
+    .para2 {
+        font-size: 22px;
+    }
+    .para4 {
+        font-size: 22px;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .para5 {
+        font-size: 22px;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .acceptance {
+        font-size: 25px;
+    }
+    .acceptance p {
+        font-size: 22px;
+    }
+    .games {
+        font-size: 25px;
+    }
+    .games p {
+        font-size: 22px;
+    }
+    .trust {
+        font-size: 25px;
+    }
+    .trust p {
+        font-size: 22px;
+    }
+}
